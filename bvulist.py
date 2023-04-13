@@ -1,7 +1,7 @@
 
 class bvulist(list):
     def prepend(self, value):
-        self.insert(0, value)
+        self.insert(1, value)
 # This is a test
     def pop_back(self):
         return self.pop()
